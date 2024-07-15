@@ -193,6 +193,20 @@ align-items: center;
     /* justify-content: center; */
     align-items: center;
 }
+.bg-special {
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    background: var(--cloud);
+}
+.hero-lst-icons{
+    padding-left: 100px;
+}
 .section-hidden{
     padding: 120px 0;
 }
@@ -271,6 +285,22 @@ font-family: var(--font-family);
 .team-list :first-child{
     /* width: calc((100% - 72px) / 4); */
 }
+.team-total-flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 8px;
+}
+.social_list_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
+}
+
 .portfolio{
     padding: 120px 0 120px 0;
     
