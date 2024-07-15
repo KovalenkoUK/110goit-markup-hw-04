@@ -6,6 +6,7 @@ body{
     letter-spacing: 0.03em;
 }
 
+
 img{
     display: block;
 }
@@ -280,16 +281,18 @@ font-family: var(--font-family);
         color: var(--navy-blue);
         text-transform: capitalize;
         margin-bottom: 72px;
-        /* padding-top: 120px; */
 }
-.team-list :first-child{
-    /* width: calc((100% - 72px) / 4); */
-}
+
 .team-total-flex {
     display: flex;
     justify-content: center;
     column-gap: 24px;
     margin-top: 8px;
+}
+.team_total_contacts {
+    width: 40px;
+    height: 40px;
+    fill: currentColor;
 }
 .social_list_link {
     display: flex;
