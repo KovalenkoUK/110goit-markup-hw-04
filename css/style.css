@@ -54,7 +54,6 @@ a{
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        /* color: #4D5AE5; */
         text-transform: uppercase;
         margin-right: 76px;
         padding: 24px 0;
@@ -63,7 +62,7 @@ a{
         
 }
 .logo:focus, .logo:hover{
-    /* color: #404bbf; */
+   
 }
 .logo_web{
     color:  #2E2F42;
@@ -383,6 +382,7 @@ font-family: var(--font-family);
         letter-spacing: 0.02em;
         color: var(--cloud);
         padding: 40px 32px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .first{
     
