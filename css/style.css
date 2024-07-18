@@ -317,8 +317,8 @@ font-family: var(--font-family);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    /* width: 44px;
+    height: 44px; */
     border-radius: 50%;
     color: #AFB1B8;
     background-color:#4d5ae5;
